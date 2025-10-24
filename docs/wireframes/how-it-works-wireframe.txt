@@ -1,0 +1,60 @@
+# How It Works Section Wireframe
+
+## Layout Overview
+- Full-width section with black background
+- Grid layout: 2 columns on desktop, stacked on mobile
+- Unified title at top center
+- Left column: Data flow visualization + explanation
+- Right column: RAG process 3D animation + AI matching details
+
+## Visual Hierarchy
+┌─────────────────────────────────────────────────────────────┐
+│                    How It Works                             │
+│              (Unified AI-Powered Platform)                 │
+│                                                             │
+│  ┌─────────────────┐     ┌─────────────────┐                │
+│  │ Data Scraping   │     │ RAG Process     │                │
+│  │ Visualization   │     │ 3D Animation    │                │
+│  │                 │     │                 │                │
+│  │ [3D Database]   │     │ [Interactive    │                │
+│  │                 │     │  Steps:         │                │
+│  │ Explanation:    │     │  Retrieval →    │                │
+│  │ - Continuous    │     │  Augmentation → │                │
+│  │   scraping      │     │  Generation]    │                │
+│  │ - AI analysis   │     │                 │                │
+│  │ - Filtering     │     │ Match Scores:   │                │
+│  └─────────────────┘     │ 94% Job Match   │                │
+│                          │ 100% Remote     │                │
+│                          │ 89% Culture Fit │                │
+│                          └─────────────────┘                │
+└─────────────────────────────────────────────────────────────┘
+
+## Interactive Elements
+- Hover tooltips on technical terms
+- Clickable RAG process steps
+- Smooth animations between sections
+- Responsive scaling for mobile
+
+## Typography Scale
+- Main Title: 6xl (desktop), 4xl (mobile)
+- Subtitles: 2xl
+- Body Text: base (16px)
+- Small Text: sm (14px)
+
+## Spacing Guidelines
+- Section padding: 16 (py-16)
+- Grid gap: 8 (gap-8)
+- Component margins: 8-12
+- Text line height: relaxed
+
+## Color Scheme
+- Background: black
+- Text: white (primary), gray-400 (secondary)
+- Accents: white borders, gradient overlays
+- Interactive: white/10 hover states
+
+## Mobile Adaptation
+- Single column stack
+- Reduced text sizes
+- Touch-friendly button sizes
+- Optimized 3D scene scaling

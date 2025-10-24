@@ -1,0 +1,145 @@
+{
+  "lighthouseVersion": "11.0.0",
+  "requestedUrl": "http://localhost:3000",
+  "finalUrl": "http://localhost:3000",
+  "fetchTime": "2024-01-15T10:00:00.000Z",
+  "gatherMode": "navigation",
+  "runWarnings": [],
+  "runtimeError": null,
+  "audits": {
+    "performance": {
+      "id": "performance",
+      "title": "Performance",
+      "description": "These metrics capture the overall performance of the page.",
+      "score": 0.45,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 4500,
+      "numericUnit": "millisecond",
+      "displayValue": "4.5 s"
+    },
+    "accessibility": {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "description": "These checks highlight opportunities to improve the accessibility of your web app.",
+      "score": 0.85,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 85,
+      "numericUnit": "unitless",
+      "displayValue": "85"
+    },
+    "best-practices": {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "description": "These checks highlight common best practices for web development.",
+      "score": 0.78,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 78,
+      "numericUnit": "unitless",
+      "displayValue": "78"
+    },
+    "seo": {
+      "id": "seo",
+      "title": "SEO",
+      "description": "These checks ensure that your page is optimized for search engine results.",
+      "score": 0.92,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 92,
+      "numericUnit": "unitless",
+      "displayValue": "92"
+    },
+    "pwa": {
+      "id": "pwa",
+      "title": "PWA",
+      "description": "These checks validate the aspects of a Progressive Web App.",
+      "score": 0.33,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 33,
+      "numericUnit": "unitless",
+      "displayValue": "33"
+    }
+  },
+  "categories": {
+    "performance": {
+      "id": "performance",
+      "title": "Performance",
+      "score": 0.45,
+      "auditRefs": [
+        {
+          "id": "first-contentful-paint",
+          "weight": 10,
+          "group": "metrics"
+        },
+        {
+          "id": "speed-index",
+          "weight": 10,
+          "group": "metrics"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "weight": 25,
+          "group": "metrics"
+        },
+        {
+          "id": "interactive",
+          "weight": 10,
+          "group": "metrics"
+        },
+        {
+          "id": "total-blocking-time",
+          "weight": 30,
+          "group": "metrics"
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "weight": 15,
+          "group": "metrics"
+        }
+      ]
+    },
+    "accessibility": {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "score": 0.85
+    },
+    "best-practices": {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "score": 0.78
+    },
+    "seo": {
+      "id": "seo",
+      "title": "SEO",
+      "score": 0.92
+    },
+    "pwa": {
+      "id": "pwa",
+      "title": "PWA",
+      "score": 0.33
+    }
+  },
+  "categoryGroups": {
+    "metrics": {
+      "title": "Metrics"
+    },
+    "load-opportunities": {
+      "title": "Opportunities"
+    },
+    "budgets": {
+      "title": "Budgets"
+    },
+    "diagnostics": {
+      "title": "Diagnostics"
+    }
+  },
+  "timing": {
+    "total": 15000
+  },
+  "i18n": {
+    "rendererFormattedStrings": {
+      "varianceDisclaimer": "Values may vary. The performance score is calculated directly from these measurements.",
+      "minLabel": "Min",
+      "maxLabel": "Max",
+      "varianceLabel": "±"
+    }
+  }
+}
